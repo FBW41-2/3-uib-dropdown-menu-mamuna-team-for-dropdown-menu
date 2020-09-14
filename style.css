@@ -1,0 +1,67 @@
+nav {
+  background-color: black;
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav div {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  height: 100%;
+  padding: 12px 16px;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  transition: all 1s;
+  position: relative;
+  top: 0;
+}
+
+nav div::after {
+  content: "\25BC";
+}
+
+nav div ul {
+  display: none;
+  margin: 0;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  padding: 10px;
+  /* transition: all 1s; */
+}
+nav div ul li {
+  list-style-type: none;
+  margin: 0;
+}
+nav .about:hover {
+  background-color: blue;
+}
+
+nav .services:hover {
+  background-color: blue;
+}
+
+nav .top:hover {
+  background-color: blue;
+}
+
+nav .about:hover ul {
+  display: block;
+  background-color: blue;
+  width: 100%;
+}
+
+nav .services:hover ul {
+  display: block;
+  background-color: blue;
+  width: 100%;
+}
+
+nav .top:hover ul {
+  display: block;
+  background-color: blue;
+  width: 100%;
+}
