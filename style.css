@@ -15,7 +15,7 @@ nav div {
   text-decoration: none;
   margin: 0 10px 0 0;
   transition: all 1s;
-  position: relative;
+  /* position: relative; */
   top: 0;
 }
 
@@ -30,6 +30,7 @@ nav div ul {
   left: 0;
   top: 40px;
   padding: 10px;
+  box-sizing: border-box;
   /* transition: all 1s; */
 }
 nav div ul li {
